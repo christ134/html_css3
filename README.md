@@ -20,8 +20,10 @@ hello world
 <tr><td>Guardians name</td><td><input type="text"></td></tr>
 <tr><td>district</td><td>
 
-
+<select>
     <option value="wayanad"></option>
+ <option value="trivandrum></option>
+</select>
 </td></tr>
 <tr><td>Confirm password</td><td><input type="password"></td></tr>
 <tr><td>mobile no</td><td><input type="text"></td></tr>
