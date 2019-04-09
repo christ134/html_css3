@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+function input()
+{
+// console.log("information submitted successfully");
+var w=document.getElementById("name").value;
+console.log(w);
+var x=document.getElementById("college").value;
+console.log(x);
+var y=document.getElementById("rollno").value;
+console.log(y);
+var z=document.getElementById("admno").value;
+console.log(z);
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+    <div class="jumbotron text-center">
+        <h1>JOIN IN</h1>
+        <p></p> 
+      
+
+
+
+
+
+<div class="jumbotron text-center">
+ 
+  <form action="/action_page.php" class="was-validated">
+    
+             
+                <input type="text" class="" id="name" placeholder="Enter username" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                
+                
+         
+            <input type="text" class="" id="college" placeholder="Enter college" name="uname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>  
+
+    
+    
+        
+            <input type="text" class="" id="rollno" placeholder="Enter rollno" name="uname" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+   
+      
+        
+
+
+    
+        
+        <input type="text" class="" id="admno" placeholder="Enter Admission no" name="uname" required>
+
+
+   
+ 
+
+    <button type="button" class="btn btn-primary btn-sm" onclick="input();">
+            <span class="spinner-grow spinner-grow-sm"></span>
+        Register</button>
+ 
+
+
+
+
+
+
+
+
+
+
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal" onclick="input();"ss>
+       Submit
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+          
+         
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+             Submitted successfully...
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+
+    </form>
+</div>
+
+
+
+</body>
+</html>
