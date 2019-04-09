@@ -1,0 +1,18 @@
+body{
+    background:blanchedalmond
+}
+.mytr{
+    background:bisque
+}
+.myb{
+    background:blue
+}
+.mytitle{
+    margin-left: 300px
+}
+.mydiv{
+    border:10px solid black;
+    background-color: mediumaquamarine;
+    width: 500px;
+    margin-left:200px;
+}
